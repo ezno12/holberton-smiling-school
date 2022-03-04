@@ -371,7 +371,6 @@ body {
 .btn {
     background-color: #C271FF;
     position: relative;
-    left: 30%;
 }
 /* FAQ Section */
 .faq-section {
@@ -404,6 +403,79 @@ body {
 }
 .faq-question {
     margin: 3rem 0;
+}
+/* Courses Page */
+.courses-header {
+    background-image: url(./images/pic_3.jpg);
+}
+.courses-header h1 {
+    color: white;
+    font-family: coiny;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.courses-header span {
+    color: #C271FF;
+}
+
+.filter-section {
+    background-color: #C271FF;
+    padding: 3rem 0;
+
+}
+.filter-section label {
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.943rem;
+    color: white;
+}
+.filter-section input, .filter-section select {
+    background-color: rgba(255, 255, 255, .25);
+    border-radius: 3px 3px 0 0;
+
+}
+.filter-section input:focus, .filter-section select:focus {
+    background-color: rgba(255, 255, 255, .25);
+    border-color: white;
+
+}
+.form-control {
+    color: white;
+    padding-left: 2rem;
+}
+.form-control::placeholder {
+    color: white;
+}
+option:hover {
+    box-shadow: 0 0 10px 100px red inset;
+}
+
+label + svg {
+    z-index: 3;
+    position: relative;
+    left: -2.5rem;
+    top: 2.25rem;
+
+}
+/* videos list */
+.video-section {
+    max-width: 80rem;
+    margin-inline: auto;
+}
+.video-section h6 {
+    padding-left: 1rem;
+    margin: 4rem 0;
+    color: rgba(7, 22, 41, 0.3);
+    font-family: Source Sans Pro;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0px;
 }
 
 /* Media queries */
